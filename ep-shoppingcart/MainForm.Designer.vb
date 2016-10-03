@@ -666,7 +666,7 @@ Partial Class MainForm
         Me.PictureBox5.Location = New System.Drawing.Point(124, 228)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(380, 493)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox5.TabIndex = 0
         Me.PictureBox5.TabStop = False
         '
@@ -689,13 +689,17 @@ Partial Class MainForm
         Me.ImgGM.Images.SetKeyName(5, "m-02-02-normal.jpg")
         Me.ImgGM.Images.SetKeyName(6, "m-02-03-normal.jpg")
         Me.ImgGM.Images.SetKeyName(7, "m-02-04-normal.jpg")
+        Me.ImgGM.Images.SetKeyName(8, "m-03-01-normal.jpg")
+        Me.ImgGM.Images.SetKeyName(9, "m-03-02-normal.jpg")
+        Me.ImgGM.Images.SetKeyName(10, "blanco.png")
         '
         'ImgAccP
         '
         Me.ImgAccP.ImageStream = CType(resources.GetObject("ImgAccP.ImageStream"), System.Windows.Forms.ImageListStreamer)
         Me.ImgAccP.TransparentColor = System.Drawing.Color.Transparent
         Me.ImgAccP.Images.SetKeyName(0, "a-01-01-normal.jpg")
-        Me.ImgAccP.Images.SetKeyName(1, "blanco.png")
+        Me.ImgAccP.Images.SetKeyName(1, "a-02-01-normal.jpg")
+        Me.ImgAccP.Images.SetKeyName(2, "blanco.png")
         '
         'ImgPG
         '
@@ -709,6 +713,10 @@ Partial Class MainForm
         Me.ImgPG.Images.SetKeyName(5, "h-01-02-normal.jpg")
         Me.ImgPG.Images.SetKeyName(6, "h-01-03-normal.jpg")
         Me.ImgPG.Images.SetKeyName(7, "h-01-04-normal.jpg")
+        Me.ImgPG.Images.SetKeyName(8, "h-02-01-normal.jpg")
+        Me.ImgPG.Images.SetKeyName(9, "h-02-02-normal.jpg")
+        Me.ImgPG.Images.SetKeyName(10, "h-02-03-normal.jpg")
+        Me.ImgPG.Images.SetKeyName(11, "h-02-04-normal.jpg")
         '
         'ImgCalzaG
         '
@@ -718,6 +726,14 @@ Partial Class MainForm
         Me.ImgCalzaG.Images.SetKeyName(1, "I_5054618311879_51_20160419.jpg")
         Me.ImgCalzaG.Images.SetKeyName(2, "I_5054618311879_52_20160419.jpg")
         Me.ImgCalzaG.Images.SetKeyName(3, "I_5054618311879_54_20160419.jpg")
+        Me.ImgCalzaG.Images.SetKeyName(4, "c-02-01-normal.jpg")
+        Me.ImgCalzaG.Images.SetKeyName(5, "c-02-02-normal.jpg")
+        Me.ImgCalzaG.Images.SetKeyName(6, "c-02-03-normal.jpg")
+        Me.ImgCalzaG.Images.SetKeyName(7, "c-02-04-normal.jpg")
+        Me.ImgCalzaG.Images.SetKeyName(8, "c-03-01-normal.jpg")
+        Me.ImgCalzaG.Images.SetKeyName(9, "c-03-02-normal.jpg")
+        Me.ImgCalzaG.Images.SetKeyName(10, "c-03-03-normal.jpg")
+        Me.ImgCalzaG.Images.SetKeyName(11, "c-03-04-normal.jpg")
         '
         'MainForm
         '
