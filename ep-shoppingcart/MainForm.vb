@@ -319,6 +319,8 @@
 
     Private Sub btnComprar_Click(sender As Object, e As EventArgs) Handles btnComprar.Click
         MsgBox("Su compra fue hecha con éxito")
+        txtCantidad.Text = "0"
+        lblTotal.Text = "$0"
     End Sub
     Public Sub ProH()
 
