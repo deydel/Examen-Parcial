@@ -116,6 +116,11 @@
         PictureBox5.Image = ImgCalzaG.Images.Item(0)
 
         lblPrecio.Text = "$55"
+        lblT1.Text = "37"
+        lblT2.Text = "38"
+        lblT3.Text = "40"
+        lblT4.Text = "41"
+        lblT5.Text = "42"
     End Sub
 
     Private Sub btnAcces_Click(sender As Object, e As EventArgs) Handles btnAcces.Click
@@ -132,6 +137,16 @@
         PictureBox5.Image = ImgAccP.Images.Item(0)
 
         lblPrecio.Text = "$175"
+        lblT1.Text = "-"
+        lblT1.ForeColor = Color.Gray
+        lblT2.Text = "-"
+        lblT2.ForeColor = Color.Gray
+        lblT3.Text = "-"
+        lblT3.ForeColor = Color.Gray
+        lblT4.Text = "-"
+        lblT4.ForeColor = Color.Gray
+        lblT5.Text = "-"
+        lblT5.ForeColor = Color.Gray
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
